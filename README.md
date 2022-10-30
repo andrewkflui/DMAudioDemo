@@ -44,6 +44,7 @@ A launcher application `ApplicationLauncher.class` is provided for running each 
 2. Execute `ApplicationLauncher.class` insider the folder
 
 > `cd /app/DMAudioDemo`
+> 
 > `java -cp "./bin" ApplicationLauncher`
 
 ### Running Individual Application
@@ -51,5 +52,6 @@ A launcher application `ApplicationLauncher.class` is provided for running each 
 Alternatively, each of the 11 applications can be executed from their main classes (as in the above list).
 
 > `cd /app/DMAudioDemo`
+> 
 > `java -cp "./bin" faifai.audio.WaveGeneratorApplication`
 
