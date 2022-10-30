@@ -101,10 +101,22 @@ Class: `faifai.audio.MaskingDemoApplication`
 
 <img width="592" alt="Screenshot 2022-10-30 at 10 07 01 PM" src="https://user-images.githubusercontent.com/8808539/198889392-f8af6fb8-6bce-4807-9c47-b2f2ae2b2b49.png">
 
-Instruction: set two signals to the same frequency with one at a significantly lower amplitude than the other. Adjust the weaker signal's frequency (turning it up) until you start hearing it. The difference in frequency is the marked zone.
+Instruction: set two signals to the same frequency with one at a significantly lower amplitude than the other. Adjust the weaker signal's frequency (turning it up) until you start hearing it. The difference in frequency is the marked zone. Refer to this [page](https://en.wikipedia.org/wiki/Auditory_masking) for information about frequency masking
 
+### Audio Effect Demo 
+Class: `faifai.audio.EffectApplication`
+* Supports digital audio processing such as amplify, boost, fade-in, fade-out, and high-pass , low-pass, band-pass and band-reject filters. It also supports reverse and reverb
 
+<img width="472" alt="Screenshot 2022-10-30 at 10 04 05 PM" src="https://user-images.githubusercontent.com/8808539/198889697-24ac3936-f98b-4fa3-a824-bf7515b0c874.png">
 
+### The Midi Demo
 
+The Midi demo include the following classes.
 
+* Midi Instrument Demo (`faifai.midi.MidiInstrumentApplication`)
+* Midi Chord Demo (`faifai.midi.MidiChordApplication`)
+* Midi File Player (`faifai.midi.MidiFilePlayerApplication`)
+* Midi Instrument Record Demo (`faifai.midi.MidiInstrumentSaveApplication`)
+
+These demo applications play MIDI sound either interactively or from a Midi file.
 
