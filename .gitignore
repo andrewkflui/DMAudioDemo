@@ -1,0 +1,10 @@
+.form
+.java
+
+# VSCode
+/src/
+/lib/
+/.vscode/
+
+# Additional
+.DS_Store

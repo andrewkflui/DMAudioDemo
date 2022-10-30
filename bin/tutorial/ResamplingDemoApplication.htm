@@ -1,0 +1,40 @@
+<html>
+<style>
+body {background-color: black;
+color: white;
+font-family: Arial;
+font-weight: normal;
+font-size: 100%;
+margin: 5px;
+}
+</style>
+<body>
+<h2>Resampling Demo</h2>
+    <p>Developed by Dr. Andrew Kwok-Fai LUI</p>
+<p>Learning Objective: Describe how the change in sampling rate distorts audio waveform
+  and degrades sound quality.
+</p>
+<p>The Resampling Demo contains a Waveform Generator and a Re-sampling Module that can
+change the sampling rate of an audio signal.
+The original signal is sampled at 44100Hz (there are 44100 samples per second).</p>
+<p>Note the difference between sampling frequency and audio frequency.
+Sampling frequency is the number of samples taken per second.
+Audio frequency refers to how the amplitude changes in from one sample to the next sample.</p>
+<p>The Up-sample and Down-sample buttons provide control of the sampling rate.
+  Pressing the Down-sample once will halve the sampling rate.
+  After each change in the sampling rate, listen the sound and compare the quality.
+  At a certain low sampling frequency the sound quality will become noticeably poor.
+  Note down this threshold sampling rate under which the audio quality is very poor.
+</p>
+<p>
+Adjust the audio frequency of the wave generator.
+Repeat the above and find out the threshold sampling rate for poor quality for different audio frequency.
+There should be a relation.
+</p>
+<p>Study the waveform when poor audio quality is noticed.
+  You should see a severe distortion in the output signal due to the lower sampling rate.
+  Fewer samples are taken per second and so the signals are not truly represented.
+</p>
+
+</body>
+</html>
