@@ -1,6 +1,6 @@
 /***************************************************************
  *
- * Interactive Demo: Colors in Digital Multimedia
+ * Interactive Learning Platform: Digital Audio
  * Copyright (c) 2010 Dr. Andrew Kwok-Fai LUI
  * The Open University of Hong Kong
  *

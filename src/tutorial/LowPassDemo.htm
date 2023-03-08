@@ -1,0 +1,28 @@
+<html>
+<style>
+body {
+background-color: black;
+color: white;
+font-family: Arial;
+font-weight: normal;
+font-size: 100%;
+}
+</style>
+    <h2>Low Pass Filter and Aliasing Demo</h2>
+            <p>Developed by Dr. Andrew Kwok-Fai LUI</p>
+    <p>You should now see an image scaled-up from a small version.
+    The "blockiness" is due to the nearest-neighbour scaling up operation that
+    simply copies a pixel's value to the gap after enlarge.
+    </p>
+    <p>
+      The "blockiness" is an effect called aliasing. From the perspective of
+      "rate of change", the "blockiness" is a high frequency (fast rate of change)
+      signal.
+    </p>
+    <p>Human eyes are sensitive to lines and so the "blockiness" is the most
+    prominent feature seen by you.</p>
+    <p>A low-pass filter can filter out some of the high frequency signal. </p>
+    <p>Pressing the button will perform a low-pass filter on the image and the
+    blockiness will be removed.</p>
+
+</html>

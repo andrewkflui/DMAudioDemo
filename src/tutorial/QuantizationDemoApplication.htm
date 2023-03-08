@@ -1,0 +1,38 @@
+<html>
+<style>
+body {background-color: black;
+color: white;
+font-family: Arial;
+font-weight: normal;
+font-size: 100%;
+margin: 5px;
+}
+</style>
+<body>
+<h2>Quantization Demo</h2>
+    <p>Developed by Dr. Andrew Kwok-Fai LUI</p>
+<p>Learning Objective: Describe how the change in sample size distorts audio waveform 
+  and degrades sound quality.</p>
+<p>The data size of an audio sample is related to the fine-ness of the representation 
+  in quantization of audio signal. An 8-bit audio sample can represent 256 levels 
+  of audio signal amplitude. A 24-bit can represent 2^24 levels. A 24-bit sample 
+  can represent audio signal's amplitude more accurately and the resulting audio 
+  data is of a higher quality.</p>
+<p>Use sine waveform and set frequency to around 600Hz in the Wave Generator. 
+  Listen to the sound and consider it as the standard quality. The current sample 
+  size is 8-bit, which represents 256 different quantization levels.</p>
+<p>The Finer and Coarser buttons provide control of the sampling data size. Pressing 
+  the Coarser button once will reduce the sample data size. The sample data size 
+  is shown in the green window. After each change in the sampling rate, listen 
+  the sound and compare the quality. The sound quality will soon become noticeably 
+  poor.</p>
+<p>The loudness also changes with the change in sampling data size because of 
+  the severe distortion. Check out waveform.</p>
+<p>Study the waveforms at different sampling data sizes. There are 8 levels between 
+  the highest amplitude position and the lowest amplitude position when the sampling 
+  rate is 3-bit. Change the amplitude slider between maximum and minimum, and 
+  the levels would become clear.<br>
+</p>
+
+</body>
+</html>
